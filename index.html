@@ -8,7 +8,64 @@
     <title>Tic Tac Toe</title>
 </head>
 <body>
-    
+    <div class="wrapper">
+        <header class="header">
+            Tic Tac Toe
+        </header>
+        <div class="main-flex-container">
+            <div class="buttons">
+                <div class="container">
+                    <div class="buttons-row">
+                        <button class="start-btn">Start</button>
+                        <button class="restart-btn">Restart</button>
+                    </div>
+                </div>
+            </div>
+            <main class="main-field">
+                <div class="container">
+                    <div class="main-field-row">
+                        <div class="additional-field left"></div>
+                        <div class="gameboard-container">
+                            <div class="blind">
+                                <div class="winner-window"></div>
+                                <form action="#" class="names-box">
+                                    <div class="first-player-name">
+                                        <label for="first">Player 1</label>
+                                        <input type="text" id="first" placeholder="Player 1">
+                                    </div>
+                                    <div class="second-player-name">
+                                        <label for="second">Player 2</label>
+                                        <input type="text" id="second" placeholder="Player 2">
+                                    </div>
+                                    <div class="choose-sign">
+                                        <p>Choose player 1 sign</p>
+                                        <div class="sign-buttons">
+                                            <button class="X"></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div data-index="1" class="gamecell"></div>
+                            <div data-index="2" class="gamecell"></div>
+                            <div data-index="3" class="gamecell"></div>
+                            <div data-index="4" class="gamecell"></div>
+                            <div data-index="5" class="gamecell"></div>
+                            <div data-index="6" class="gamecell"></div>
+                            <div data-index="7" class="gamecell"></div>
+                            <div data-index="8" class="gamecell"></div>
+                            <div data-index="9" class="gamecell"></div>
+                        </div>
+                        <div class="additional-field right"></div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="copyright">
+                Copyright © damirios, 2022. <a href="https://github.com/damirios">My github page is here</a>
+            </div>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
